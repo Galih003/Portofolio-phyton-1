@@ -26,13 +26,8 @@ import matplotlib.pyplot as plt
 data = pd.read_csv("country_data.csv")
 
 
-# 2. Let's isolate the column that contains the life expectancy and store it in a variable named `life_expectancy`. To get a single column from a Pandas DataFrame, use this syntax:
-# 
-#    ```py
-#    single_column = dataFrameName["columnName"]
-#    ```
-#    
-#    Make sure to pay attention to capitalization and spaces when using the column name!
+# 2. Let's isolate the column that contains the life expectancy and store it in a variable named `life_expectancy`.
+
 
 # In[6]:
 
